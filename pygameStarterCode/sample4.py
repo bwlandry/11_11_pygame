@@ -39,6 +39,7 @@ while not gameExit:
 	gameDisplay.fill(blue, rect=[50,50, 20,20])
 	pygame.draw.circle(gameDisplay, red, (50,100), 20, 0)
 	pygame.draw.lines(gameDisplay, red, False, [(100,100), (150,200), (200,100)], 1)
+	pygame.draw.arc(gameDisplay, green, [500, 500, 10, 40], 45, 30)
 
 	pygame.display.update()		
 
